@@ -25,8 +25,21 @@ header.mystyle {
     color: black;
 
 }
+ul li a {
+    position: relative;
+    display: block;
+    /* padding: 10px 10px; */
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    color: #c49b63;
+    font-weight: bold;
+}
+ul li .active1 {
+    background-color: #c49b63;
+
+}
 a {
-    text-decoration: none !important;
+   
     color: white !important;  /* ưu tiên chạy trước */
  }
 .cafe2 {
@@ -155,23 +168,23 @@ header.ac {
     font-size: 40px;
     font-weight: 700;  
 }
-#tongmenu {
-    display: flex;
-    justify-content: space-between;
-    margin: 0 auto;
-    width: 600px;
-    margin-top: 50px
-  
+ #tongmenu {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 600px;
+            margin-top: 50px
+        
 
-}
-.active1 {
+        }
+ .active1 {
    font-size: 40px;
    list-style-type: none;
    background-color: transparent;
    padding: 11px 11px; 
    border-radius: 20px;
-   text-decoration: none !important; 
-   /* border-bottom: 1px solid white;*/
+   text-decoration: none !important;  
+   /* border-bottom: 1px solid white; */
 } 
 .active1:hover {
     background-color: #c49b63;
@@ -190,14 +203,14 @@ header.ac {
 }
 .active3 {
     font-size: 40px;
-    list-style: none;  /* cách xoá gạch đầu dòng */
+     list-style: none; /* cách xoá gạch đầu dòng */
     background-color: transparent;
     padding: 11px 11px; 
     border-radius: 20px;
     text-decoration: none; 
     /* border-bottom: 1px solid white; */
 
-}
+} 
 .tab-content {
     padding-bottom: 60px ;
 }
